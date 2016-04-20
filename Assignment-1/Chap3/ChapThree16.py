@@ -3,6 +3,12 @@ import turtle
 turtle.showturtle()
 
 turtle.penup()
+turtle.goto(-150,200)
+turtle.pendown()
+turtle.write("Cool Color Shapes")
+turtle.penup()
+
+turtle.penup()
 turtle.goto(-150,50)
 turtle.pendown()
 turtle.begin_fill()

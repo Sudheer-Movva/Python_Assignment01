@@ -1,5 +1,5 @@
 import keyword
-file_name = input("Enter a Python source code file name: ")
+file_name = input("Enter a Python source code file name: ").strip()
 
 read_handle = open(file_name,"r")
 full_file = read_handle.read()

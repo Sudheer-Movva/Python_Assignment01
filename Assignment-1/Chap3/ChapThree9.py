@@ -2,8 +2,8 @@
 input_emp_name = input("Enter employee name: ")
 input_hours_week = eval(input("Enter no.of hours worked in a week: "))
 input_hour_rate =  eval(input("Enter hourly pay rate: "))
-input_federal_tax =  eval(input("Enter federal tax rate: "))
-input_state_tax =  eval(input("Enter state tax rate: "))
+input_federal_tax =  eval(input("Enter federal tax withholding rate: "))
+input_state_tax =  eval(input("Enter state tax withholding rate: "))
 
 gross_pay = input_hours_week * input_hour_rate
 federal_withholding = round(gross_pay * input_federal_tax,2)

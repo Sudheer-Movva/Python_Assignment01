@@ -1,5 +1,5 @@
 
-file_name = input("Enter a text file name: ")
+file_name = input("Enter a text file name: ").strip()
 
 read_handle = open(file_name,"r")
 full_file = read_handle.read()

@@ -7,5 +7,5 @@ if denom == 0:
 else:
     x = ((e*d) - (b*f))/denom
     y = ((a*f) - (e*c))/denom
-    print("x is: ",x)
-    print("y is: ",y)
+    print("x is ",x," and y is ",y)
+    

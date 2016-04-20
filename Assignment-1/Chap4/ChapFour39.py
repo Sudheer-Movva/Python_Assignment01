@@ -11,7 +11,7 @@ if distance_centers <= abs(r1-r2):
 elif distance_centers <= (r1+r2):
     write_canvas = "Circle2 overlaps Circle1"
 else:
-    write_canvas = "Circle2 is completely outside Circle1"
+    write_canvas = "Circle2 doesnot overlap Circle1"
 
 turtle.showturtle()
 

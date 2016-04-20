@@ -1,8 +1,8 @@
 import random
 
-random_card_number = (int)(random.random() * 52)
+random_card_number = random.randint(0, 51)
 
-rank_number = random_card_number // 4
+rank_number = random_card_number % 13
 
 if rank_number == 0:
     rank = "Ace"
@@ -13,9 +13,9 @@ elif rank_number == 11:
 elif rank_number == 12:
     rank = "King"
 else:
-    rank = str(rank_number+1)
+    rank = str(rank_number)
     
-suit_number = random_card_number % 4
+suit_number = random_card_number // 13
 
 if suit_number == 0:
     suit = "Clubs"
@@ -27,4 +27,4 @@ elif suit_number == 3:
     suit = "Spades" 
 
 print("Random card number is: ",random_card_number)
-print("The card got picked is: ",rank,"  of ",suit)
+print("The card you picked is the ",rank,"  of ",suit)
